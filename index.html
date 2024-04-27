@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Сайт визитка
+	</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://wsxzaq127.github.io/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- <div class="my_class">
+	<h1 class="title">сайт визитка</h1>
+	<img class="pic" src="img/about__img.png">
+</div> -->
+<header class="header">
+	<div class="container_header container">
+		<img class="header__img"src="img/(header__logo).png">
+		<nav class="nav">
+			<ul class="nsv__list">
+				<li class="nav__item">главноя</li>
+				<li class="nav__item">о нас</li>
+				<li class="nav__item">скриншоты</li>
+				<li class="nav__item">отзывы</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+<main class="main">
+	<section class="hero-block">
+		<div class="container container_hero-block"> 
+			<img src="img/hero-block__img.png" class="hero-block__img">
+			<div class="hero-block__content">
+				<h1 class="hero-block__title">Меня зовут Иван Иванов</h1>
+				<a href="#" class="hero-block__link">Написать мне</a>
+			</div>
+		</div>
+	</section>
+    <section class="about">
+    	<div class="container_about container">
+    		<h2 class="about__title">Об авторе</h2>
+    		<div class="about__content">
+    			<p class="about__text">Я занимаюсь веб-дизайном, front-end и back-end разработкой уже 3 года. Вам нужен дизайн веб-сайта, верстка сайта или может быть сайт "под ключ"? Тогда свяжитесь со мной!</p>
+    			<img class="about__img" src="img/about__img.png">
+    		</div>
+    	</div>
+    </section>
+    <section class="video">
+    	<div class="container container_video">
+    		<h2 class="video__title">Видео</h2>
+    		<iframe class="video__video"  src="https://www.youtube.com/embed/RMXVx1b0-VY?si=Hv_B2CkXny8VdUsO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    	</div>
+    </section>
+    <section class="gallery">
+    	<h2 class="gallery__title">Галерея</h2>
+    	<ul class="gallery__list">
+    		<li class="gallery__item">
+    			<a href="img/gallery__img.png" class="lightzoom gallery__link">
+    				<img src="img/gallery__img.png" class="gallery__img">
+    			</a>
+    		</li>
+    		<li class="gallery__item">
+    			<a href="img/gallery__img(3).png" class="lightzoom gallery__link">
+    				<img src="img/gallery__img(3).png" class="gallery__img">
+    			</a>
+    		</li>
+    		<li class="gallery__item">
+    			<a href="img/gallery__img(2).png" class="lightzoom gallery__link">
+    				<img src="img/gallery__img(2).png" class="gallery__img">
+    			</a>
+    		</li>
+    		<li class="gallery__item">
+    			<a href="img/gallery__img.png" class="lightzoom gallery__link">
+    				<img src="img/gallery__img.png" class="gallery__img">
+    			</a>
+    		</li>
+    	</ul>
+    </section>
+</main>
+<footer class="footer">
+	<div class="container container_footer">
+		<div class="footer__content">
+			<h4 class="footer__title">Павел Жиров </h4>
+			<p class="footer__text"> &copy; 2024. Все права защищены.</p>
+		</div>
+		<ul class="footer__list">
+			<li class="footer__item ">
+				<img src="img/icon_tg.png"class="footer__img">
+			</li>
+			<li class="footer__item ">
+				<img src="img/icon_vk.png"class="footer__img">
+			</li>
+		</ul>
+	</div>
+	
+</footer>
+<script type="text/javascript" src="https://wsxzaq127.github.io/lightzoom.js"></script>
+<script type="text/javascript">
+jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true});
+</script>
+</body>
+</html>
